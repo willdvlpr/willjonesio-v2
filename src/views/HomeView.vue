@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <main>Hello World</main>
+  <main>Will Jones</main>
 </template>

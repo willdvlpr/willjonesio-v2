@@ -1,13 +1,19 @@
 <script setup>
 import NavLink from './components/NavLink.vue';
 
-const navLabels = ['Projects', 'Blog', 'SocioProphet', 'YouTube', 'GitHub', 'Contacts'];
+const navItems = [
+  { label: 'SocioProphet', href: 'https://www.socioprophet.com/', isExternal: true },
+  { label: 'YouTube', href: 'https://www.youtube.com/@willjones3521', isExternal: true },
+  { label: 'GitHub', href: 'https://github.com/willdvlpr', isExternal: true },
+  { label: 'Blog', href: 'https://willdvlpr.medium.com/', isExternal: true },
+  { label: 'Twitter', href: 'https://twitter.com/willdvlpr', isExternal: true }
+];
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <NavLink v-for="label in navLabels" :key="label" :label="label" />
+      <NavLink v-for="navItem in navItems" :key="navItem.label" v-bind="navItem" />
     </div>
   </header>
 
