@@ -12,7 +12,7 @@ import NavLink from './ItemLink.vue';
 
 <style scoped>
 h2 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -21,7 +21,7 @@ h2 {
 }
 
 .links-wrapper > * {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .links-wrapper > *:first-child {

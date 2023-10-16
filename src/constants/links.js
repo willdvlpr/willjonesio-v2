@@ -18,5 +18,11 @@ export const projectItems = [
     href: 'https://github.com/willdvlpr/willjonesio-v2',
     isExternal: true,
     isRounded: true
+  },
+  {
+    label: 'qm notes',
+    href: 'https://github.com/willdvlpr/QM-notes',
+    isExternal: true,
+    isRounded: true
   }
 ];

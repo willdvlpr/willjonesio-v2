@@ -30,13 +30,13 @@ main {
 }
 
 .second-section {
-  padding-left: 100px;
+  padding-left: 150px;
   margin-top: 40px;
   height: auto;
 }
 
 .third-section {
-  padding-left: 100px;
+  padding-left: 150px;
   margin-top: 80px;
   height: auto;
 }

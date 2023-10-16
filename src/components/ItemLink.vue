@@ -12,7 +12,8 @@ const isRoundStyle = computed(() => {
     return {
       border: '1px solid black',
       borderRadius: '50px',
-      padding: '18px 32px 18px 32px'
+      padding: '18px 32px 18px 32px',
+      boxShadow: '0px 3px 5px rgba(0, 0, 0, 0.1)'
     };
   } else {
     return {};

@@ -1,13 +1,15 @@
 <script setup>
 import NavLink from './ItemLink.vue';
+import ProfileAvatar from './ProfileAvatar.vue';
 import { navItems } from '../constants/links';
 </script>
 
 <template>
   <header>
-    <div class="wrapper">
+    <nav>
       <NavLink v-for="navItem in navItems" :key="navItem.label" v-bind="navItem" />
-    </div>
+      <div class="avatar-wrapper"><ProfileAvatar /></div>
+    </nav>
   </header>
 </template>
 
@@ -17,12 +19,19 @@ header {
   width: 100%;
 }
 
-.wrapper {
+nav {
+  display: flex;
   padding-right: 40px;
   line-height: 80px;
 }
 
-.wrapper > * {
+nav > * {
   margin-left: 30px;
+}
+
+.avatar-wrapper {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
 }
 </style>
