@@ -5,3 +5,18 @@ export const navItems = [
   { label: 'Blog', href: 'https://willdvlpr.medium.com/', isExternal: true },
   { label: 'Twitter', href: 'https://twitter.com/willdvlpr', isExternal: true }
 ];
+
+export const projectItems = [
+  {
+    label: 'socioprophet',
+    href: 'https://github.com/SocioProphet',
+    isExternal: true,
+    isRounded: true
+  },
+  {
+    label: 'willjones.io',
+    href: 'https://github.com/willdvlpr/willjonesio-v2',
+    isExternal: true,
+    isRounded: true
+  }
+];
