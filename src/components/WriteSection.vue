@@ -1,13 +1,18 @@
 <script setup>
+import { articleItems } from '../constants/links';
 import ArticlePreview from './ArticlePreview.vue';
 </script>
 
 <template>
   <h2>WHAT I WRITE</h2>
-  <ArticlePreview />
-  <ArticlePreview />
-  <div class="overlay"><ArticlePreview /></div>
-  <div class="read-more">read more</div>
+
+  <ArticlePreview
+    v-for="articleItem in articleItems"
+    :key="articleItem.title"
+    v-bind="articleItem"
+  />
+
+  <div class="read-more"><a href="https://willdvlpr.medium.com/" target="_blank">read more</a></div>
 </template>
 
 <style scoped>
@@ -16,12 +21,16 @@ h2 {
   font-weight: bold;
 }
 
-.overlay {
-  opacity: 0.4;
+.read-more {
+  margin-right: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  text-align: center;
 }
 
-.read-more {
-  font-size: 16px;
-  margin-left: 330px;
+a {
+  color: #000;
+  text-decoration: none;
 }
 </style>
