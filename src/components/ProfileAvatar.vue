@@ -9,4 +9,10 @@ div {
   background-color: #15253f;
   border-radius: 50%;
 }
+
+@media (max-width: 600px) {
+  div {
+    display: none;
+  }
+}
 </style>

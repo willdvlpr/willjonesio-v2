@@ -1,5 +1,6 @@
 <script setup>
 import PageHeader from '../components/PageHeader.vue';
+import TitleSection from '../components/TitleSection.vue';
 import BuildSection from '../components/BuildSection.vue';
 import WriteSection from '../components/WriteSection.vue';
 </script>
@@ -8,8 +9,7 @@ import WriteSection from '../components/WriteSection.vue';
   <PageHeader />
   <main>
     <section class="first-section">
-      <h1>WILL JONES</h1>
-      <h2>engineer / creator</h2>
+      <TitleSection />
     </section>
     <section class="second-section">
       <BuildSection />
@@ -20,7 +20,7 @@ import WriteSection from '../components/WriteSection.vue';
   </main>
 </template>
 
-<style scoped>
+<style>
 main {
   display: grid;
 }
@@ -35,23 +35,36 @@ main {
   height: auto;
 }
 
+@media (max-width: 1000px) {
+  .second-section {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .second-section {
+    padding: 0;
+  }
+}
+
 .third-section {
   padding-left: 150px;
+  padding-right: 150px;
   margin-top: 80px;
   height: auto;
 }
 
-h1 {
-  margin-top: 40px;
-  font-size: 40px;
-  text-align: center;
-  font-weight: normal;
+@media (max-width: 1000px) {
+  .third-section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
-h2 {
-  margin-top: 20px;
-  font-size: 18px;
-  text-align: center;
-  font-weight: normal;
+@media (max-width: 600px) {
+  .third-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 </style>

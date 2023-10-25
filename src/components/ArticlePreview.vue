@@ -25,11 +25,17 @@ const computeOverlay = computed(() => ({
   </div>
 </template>
 
-<style scoped>
+<style>
 article {
   display: flex;
   align-items: center;
   margin-top: 50px;
+}
+
+@media (max-width: 1280px) {
+  article {
+    display: grid;
+  }
 }
 
 .overlay {
@@ -41,10 +47,15 @@ article {
   margin-right: 50px;
 }
 
+@media (max-width: 1280px) {
+  .article-wrapper {
+    width: 100%;
+  }
+}
+
 a {
   color: #000;
   text-decoration: none;
-  font-size: 16px;
 }
 
 h3 {
@@ -52,7 +63,19 @@ h3 {
   font-weight: normal;
 }
 
+@media (max-width: 800px) {
+  h3 {
+    font-size: 15px;
+  }
+}
+
 p {
   font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 12px;
+  }
 }
 </style>

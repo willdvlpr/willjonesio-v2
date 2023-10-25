@@ -29,9 +29,27 @@ nav > * {
   margin-left: 30px;
 }
 
+@media (max-width: 600px) {
+  nav {
+    justify-content: center;
+    padding: 0;
+  }
+
+  nav > * {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 .avatar-wrapper {
   display: flex;
   margin-left: auto;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .avatar-wrapper {
+    display: none;
+  }
 }
 </style>
