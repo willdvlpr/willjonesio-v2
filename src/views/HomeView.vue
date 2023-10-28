@@ -4,6 +4,7 @@ import TitleSection from '../components/TitleSection.vue';
 import BuildSection from '../components/BuildSection.vue';
 import WriteSection from '../components/WriteSection.vue';
 import WorkWithSection from '../components/WorkWithSection.vue';
+import ReadSection from '../components/ReadSection.vue';
 </script>
 
 <template>
@@ -20,6 +21,9 @@ import WorkWithSection from '../components/WorkWithSection.vue';
     </section>
     <section class="fourth-section">
       <WorkWithSection />
+    </section>
+    <section class="second-section">
+      <ReadSection />
     </section>
   </main>
 </template>
