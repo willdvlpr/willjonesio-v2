@@ -1,6 +1,5 @@
 <script setup>
-import { displayIcons } from '../constants/icons';
-import DisplayIcon from './DisplayIcon.vue';
+import DisplayIcon from './DisplayIcons.vue';
 </script>
 
 <template>
@@ -8,7 +7,7 @@ import DisplayIcon from './DisplayIcon.vue';
     <div class="overlay">
       <h2>WHAT I WORK WITH</h2>
       <div class="display-icons">
-        <DisplayIcon v-for="icon in displayIcons" :key="icon.assetPath" v-bind="icon" />
+        <DisplayIcon />
       </div>
     </div>
   </div>
