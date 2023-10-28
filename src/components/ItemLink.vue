@@ -19,6 +19,7 @@ a {
   font-size: 16px;
   cursor: pointer;
   color: #000;
+  text-decoration: none;
 }
 
 @media (max-width: 800px) {

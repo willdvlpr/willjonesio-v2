@@ -25,7 +25,7 @@ const computeOverlay = computed(() => ({
   </div>
 </template>
 
-<style>
+<style scoped>
 article {
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@ article {
 }
 
 .article-wrapper {
-  width: 60%;
+  width: 70%;
   margin-right: 50px;
 }
 

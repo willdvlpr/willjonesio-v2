@@ -3,6 +3,7 @@ import PageHeader from '../components/PageHeader.vue';
 import TitleSection from '../components/TitleSection.vue';
 import BuildSection from '../components/BuildSection.vue';
 import WriteSection from '../components/WriteSection.vue';
+import WorkWithSection from '../components/WorkWithSection.vue';
 </script>
 
 <template>
@@ -16,6 +17,9 @@ import WriteSection from '../components/WriteSection.vue';
     </section>
     <section class="third-section">
       <WriteSection />
+    </section>
+    <section class="fourth-section">
+      <WorkWithSection />
     </section>
   </main>
 </template>
