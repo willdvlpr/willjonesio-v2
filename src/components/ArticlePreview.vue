@@ -29,12 +29,19 @@ const computeOverlay = computed(() => ({
 article {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 @media (max-width: 1280px) {
   article {
     display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  article {
+    display: flex;
   }
 }
 
@@ -56,6 +63,12 @@ article {
 @media (max-width: 800px) {
   .article-wrapper {
     width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+  .article-wrapper {
+    margin-right: 0;
   }
 }
 

@@ -31,7 +31,7 @@ h2 {
 }
 
 .links-wrapper {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .links-wrapper > * {

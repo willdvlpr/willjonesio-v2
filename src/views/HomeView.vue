@@ -3,7 +3,6 @@ import PageHeader from '../components/PageHeader.vue';
 import TitleSection from '../components/TitleSection.vue';
 import BuildSection from '../components/BuildSection.vue';
 import WriteSection from '../components/WriteSection.vue';
-import WorkWithSection from '../components/WorkWithSection.vue';
 </script>
 
 <template>
@@ -14,9 +13,6 @@ import WorkWithSection from '../components/WorkWithSection.vue';
     </section>
     <section class="build-section">
       <BuildSection />
-    </section>
-    <section class="work-with-section">
-      <WorkWithSection />
     </section>
     <section class="write-section">
       <WriteSection />
@@ -37,7 +33,7 @@ main {
 .build-section {
   padding-left: 150px;
   padding-top: 40px;
-  height: 200px;
+  height: 150px;
 }
 
 @media (max-width: 1000px) {
