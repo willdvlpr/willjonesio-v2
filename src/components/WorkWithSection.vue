@@ -18,19 +18,20 @@ import DisplayIcon from './DisplayIcons.vue';
   z-index: -1;
   background-color: #000;
   height: auto;
-  padding-bottom: 30px;
 }
 
 .overlay {
   padding-top: 40px;
-  margin-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
+  height: auto;
 }
 
 h2 {
   font-size: 24px;
   font-weight: bold;
   color: #fff;
+  margin: 0;
 }
 
 @media (max-width: 800px) {
@@ -42,7 +43,7 @@ h2 {
 .display-icons {
   display: flex;
   justify-content: space-around;
-  height: 110px;
+  margin-top: 40px;
   align-items: center;
 }
 </style>

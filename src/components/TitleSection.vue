@@ -5,7 +5,6 @@
 
 <style scoped>
 h1 {
-  margin-top: 40px;
   font-size: 40px;
   text-align: center;
   font-weight: normal;
