@@ -37,7 +37,7 @@ h2 {
 
 .read-more {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   font-size: 16px;
   text-align: center;
 }

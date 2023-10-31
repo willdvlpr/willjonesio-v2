@@ -23,6 +23,10 @@ nav {
   display: flex;
   padding-right: 40px;
   line-height: 80px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav > * {
@@ -45,6 +49,7 @@ nav > * {
   display: flex;
   margin-left: auto;
   align-items: center;
+  margin-right: 40px;
 }
 
 @media (max-width: 600px) {

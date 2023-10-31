@@ -3,6 +3,7 @@ import PageHeader from '../components/PageHeader.vue';
 import TitleSection from '../components/TitleSection.vue';
 import BuildSection from '../components/BuildSection.vue';
 import WriteSection from '../components/WriteSection.vue';
+import FooterSection from '../components/FooterSection.vue';
 </script>
 
 <template>
@@ -28,10 +29,12 @@ main {
 .title-section {
   justify-content: center;
   height: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 .build-section {
-  padding-left: 150px;
+  padding-left: 30px;
   padding-top: 40px;
   height: 150px;
 }
@@ -49,9 +52,9 @@ main {
 }
 
 .write-section {
-  padding-left: 150px;
+  padding-left: 30px;
   padding-right: 150px;
-  padding-top: 40px;
+  padding-top: 80px;
   height: auto;
 }
 

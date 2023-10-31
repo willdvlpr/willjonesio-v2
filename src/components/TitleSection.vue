@@ -5,25 +5,27 @@
 
 <style scoped>
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
-  font-weight: normal;
+  font-weight: 700;
+  margin: 0;
 }
 
 h2 {
-  margin-top: 20px;
-  font-size: 18px;
+  font-size: 27px;
   text-align: center;
   font-weight: normal;
+  margin: 0;
+  margin-top: 20px;
 }
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 30px;
+    font-size: 45px;
   }
 
   h2 {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 </style>
