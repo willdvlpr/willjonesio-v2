@@ -47,3 +47,26 @@ export const articleItems = [
     link: null
   }
 ];
+
+export const socioprophetItems = [
+  {
+    label: 'website',
+    href: 'https://www.socioprophet.com/',
+    isExternal: true
+  },
+  {
+    label: 'wiki',
+    href: 'https://wiki.socioprophet.com/',
+    isExternal: true
+  },
+  {
+    label: 'blog',
+    href: 'https://socioprophet.blog/',
+    isExternal: true
+  },
+  {
+    label: 'github',
+    href: 'https://github.com/SocioProphet',
+    isExternal: true
+  }
+];

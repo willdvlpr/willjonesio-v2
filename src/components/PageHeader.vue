@@ -1,5 +1,5 @@
 <script setup>
-import NavLink from './ItemLink.vue';
+import ItemLink from './ItemLink.vue';
 import ProfileAvatar from './ProfileAvatar.vue';
 import { navItems } from '../constants/links';
 </script>
@@ -7,7 +7,7 @@ import { navItems } from '../constants/links';
 <template>
   <header>
     <nav>
-      <NavLink v-for="navItem in navItems" :key="navItem.label" v-bind="navItem" />
+      <ItemLink v-for="navItem in navItems" :key="navItem.label" v-bind="navItem" />
       <div class="avatar-wrapper"><ProfileAvatar /></div>
     </nav>
   </header>
@@ -27,6 +27,7 @@ nav {
   width: 100%;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 nav > * {

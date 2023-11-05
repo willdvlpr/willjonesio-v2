@@ -3,6 +3,7 @@ import PageHeader from '../components/PageHeader.vue';
 import TitleSection from '../components/TitleSection.vue';
 import BuildSection from '../components/BuildSection.vue';
 import WriteSection from '../components/WriteSection.vue';
+import SocioProphetSection from '../components/SocioProphetSection.vue';
 import FooterSection from '../components/FooterSection.vue';
 </script>
 
@@ -18,7 +19,11 @@ import FooterSection from '../components/FooterSection.vue';
     <section class="write-section">
       <WriteSection />
     </section>
+    <section class="socioprophet-section">
+      <SocioProphetSection />
+    </section>
   </main>
+  <FooterSection />
 </template>
 
 <style>
@@ -53,7 +58,7 @@ main {
 
 .write-section {
   padding-left: 30px;
-  padding-right: 150px;
+  padding-right: 30px;
   padding-top: 80px;
   height: auto;
 }
@@ -70,5 +75,10 @@ main {
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+
+.socioprophet-section {
+  padding: 0 30px 40px 30px;
+  background-color: #000;
 }
 </style>
