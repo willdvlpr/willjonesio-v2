@@ -1,9 +1,12 @@
-<script setup></script>
+<script setup>
+const props = defineProps(['willjonesio', 'link', 'substack']);
+console.log(props);
+</script>
 <template>
   <div class="mobile-alignment">
-    <p>willjones.io</p>
-    <p>Medium</p>
-    <p>Substack</p>
+    <a :href="props.willjonesio">willjones.io</a>
+    <a :href="props.link" target="_blank">Medium</a>
+    <a :href="props.substack" target="_blank">Substack</a>
   </div>
 </template>
 <style scoped>
@@ -11,15 +14,16 @@ div {
   display: flex;
 }
 
-p {
+a {
   margin-left: 4px;
   margin-right: 4px;
   font-size: 16px;
   text-decoration: underline;
+  color: #000;
 }
 
 @media (max-width: 800px) {
-  p {
+  a {
     font-size: 12px;
   }
 }

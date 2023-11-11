@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue';
 import ArticleLinkBar from './ArticleLinkBar.vue';
-const props = defineProps(['title', 'previewBody', 'link']);
+const props = defineProps(['title', 'previewBody', 'link', 'substack', 'willjonesio']);
 
 const computeOverlay = computed(() => ({
   opacity: props.link ? '1' : '0.4',
@@ -20,7 +20,9 @@ const computeOverlay = computed(() => ({
           </p>
         </a>
       </div>
-      <aside><ArticleLinkBar /></aside>
+      <aside>
+        <ArticleLinkBar :willjonesio="willjonesio" :link="link" :substack="substack" />
+      </aside>
     </article>
   </div>
 </template>

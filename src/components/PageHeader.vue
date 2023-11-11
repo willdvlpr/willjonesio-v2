@@ -1,6 +1,5 @@
 <script setup>
 import ItemLink from './ItemLink.vue';
-import ProfileAvatar from './ProfileAvatar.vue';
 import { navItems } from '../constants/links';
 </script>
 
@@ -8,7 +7,6 @@ import { navItems } from '../constants/links';
   <header>
     <nav>
       <ItemLink v-for="navItem in navItems" :key="navItem.label" v-bind="navItem" />
-      <div class="avatar-wrapper"><ProfileAvatar /></div>
     </nav>
   </header>
 </template>
@@ -43,19 +41,6 @@ nav > * {
   nav > * {
     margin-left: 10px;
     margin-right: 10px;
-  }
-}
-
-.avatar-wrapper {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-  margin-right: 40px;
-}
-
-@media (max-width: 600px) {
-  .avatar-wrapper {
-    display: none;
   }
 }
 </style>

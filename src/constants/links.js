@@ -32,13 +32,19 @@ export const articleItems = [
     title: 'Create a Scrolling Ticker using the Hacker News RSS Feed in React',
     previewBody:
       'This article will walk through how to create a scrolling ticker (using a neat third-party package) to serve RSS content from the Hacker News API. The end result will look similar to the screenshot below.',
-    link: 'https://willdvlpr.medium.com/create-a-scrolling-ticker-using-the-hacker-news-rss-feed-in-react-42633320a2b0'
+    link: 'https://willdvlpr.medium.com/create-a-scrolling-ticker-using-the-hacker-news-rss-feed-in-react-42633320a2b0',
+    substack:
+      'https://willdvlpr.substack.com/p/create-a-scrolling-ticker-using-the?utm_source=profile&utm_medium=reader2',
+    willjonesio: '/'
   },
   {
     title: 'Creating a CI Pipeline with GitLab',
     previewBody:
       'The purpose of this article, is to cover how to create a simple CI pipeline using GitLab to push newly built Docker images to Google Container Registry in GCP (Google Cloud Platform).',
-    link: 'https://willdvlpr.medium.com/creating-a-ci-pipeline-with-gitlab-b4bd0b68e80c'
+    link: 'https://willdvlpr.medium.com/creating-a-ci-pipeline-with-gitlab-b4bd0b68e80c',
+    substack:
+      'https://willdvlpr.substack.com/p/creating-a-ci-pipeline-with-gitlab?utm_source=profile&utm_medium=reader2',
+    willjonesio: '/'
   },
   {
     title: 'Containerizing a React + Node.js App using Docker (and NGINX)',
