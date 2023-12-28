@@ -1,6 +1,6 @@
 # willjonesio-v2
 
-v2 of my website at willjones.io
+v2 of my website - https://willjones.io/
 
 ## Run Locally
 
