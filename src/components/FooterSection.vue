@@ -25,20 +25,6 @@ section {
   justify-content: center;
 }
 
-img {
-  margin-left: 45px;
-  margin-right: 45px;
-}
-
-@media (max-width: 800px) {
-  img {
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 20px;
-    width: 20px;
-  }
-}
-
 p {
   margin-top: 40px;
   font-size: 12px;
