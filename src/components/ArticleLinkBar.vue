@@ -1,6 +1,5 @@
 <script setup>
 const props = defineProps(['willjonesio', 'link', 'substack']);
-console.log(props);
 </script>
 <template>
   <div class="mobile-alignment">

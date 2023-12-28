@@ -1,13 +1,12 @@
-<script setup></script>
+<script setup>
+import SvgLink from './SvgLink.vue';
+import { footerItems } from '../constants/links';
+</script>
 
 <template>
   <footer>
     <section>
-      <img src="../assets/icons/linkedin-icon.svg" alt="linkedin" width="30" height="30" />
-      <img src="../assets/icons/twitter-icon.svg" alt="twitter" width="30" height="30" />
-      <img src="../assets/icons/github-icon.svg" alt="github" width="30" height="30" />
-      <img src="../assets/icons/medium-icon.svg" alt="medium" width="30" height="30" />
-      <img src="../assets/icons/youtube-icon.svg" alt="youtube" width="30" height="30" />
+      <SvgLink v-for="footerItem in footerItems" :key="footerItem.label" v-bind="footerItem" />
     </section>
     <p>Copyright © {{ new Date().getFullYear() }} Will Jones. All rights reserved.</p>
   </footer>
