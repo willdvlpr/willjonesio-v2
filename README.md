@@ -1,35 +1,14 @@
 # willjonesio-v2
 
-This template should help get you started developing with Vue 3 in Vite.
+v2 of my website at willjones.io
 
-## Recommended IDE Setup
+## Run Locally
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Built with Vue & Vite
+Deployed using Vercel
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```
+npm install && npm run dev
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+![alt text](https://github.com/willdvlpr/willjonesio-v2/blob/master/src/assets/images/willjonesio.png?raw=true)
