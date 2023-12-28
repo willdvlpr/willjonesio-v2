@@ -76,31 +76,3 @@ export const socioprophetItems = [
     isExternal: true
   }
 ];
-
-export const footerItems = [
-  {
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/willdvlpr/',
-    icon: 'linkedin-icon'
-  },
-  {
-    label: 'Twitter',
-    href: 'https://twitter.com/willdvlpr',
-    icon: 'x-twitter-icon'
-  },
-  {
-    label: 'GitHub',
-    href: 'https://github.com/willdvlpr',
-    icon: 'github-icon'
-  },
-  {
-    label: 'Medium',
-    href: 'https://willdvlpr.medium.com/',
-    icon: 'medium-icon'
-  },
-  {
-    label: 'YouTube',
-    href: 'https://www.youtube.com/@willjones3521',
-    icon: 'youtube-icon'
-  }
-];
