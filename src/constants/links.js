@@ -20,8 +20,8 @@ export const projectItems = [
     isRounded: true
   },
   {
-    label: 'qm notes',
-    href: 'https://github.com/willdvlpr/QM-notes',
+    label: 'notes archive',
+    href: 'https://github.com/willdvlpr/archive',
     isExternal: true,
     isRounded: true
   }
